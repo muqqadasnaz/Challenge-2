@@ -1,0 +1,260 @@
+*
+{
+    font-family: "Poppins" sans-serif;
+}
+body{
+    background-color: white;
+}
+.container
+{
+    width: 900px;
+    height: 620px;
+    margin: auto;
+    border: 1px solid pink;
+}
+.box1
+{
+    width: 900px;
+    height: 300px;
+    background-color: pink;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 62px 0px;
+    display: grid;
+    gap: 10px;
+}
+.box1 .item-2
+{
+    background-color: gray;
+    grid-row: span 2;
+    grid-column: span 2;
+}
+.box1 .item-3{
+    background-color: white;
+}
+.box1 .item-4
+{
+ background-color: gray;
+ grid-column: span 2;
+}
+.box1 .item-5
+{
+  background-color: crimson;
+}
+.box1 .item-6
+{
+    background-color: grey;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.box1 .item-7
+{
+    background-color: crimson;
+}
+.box1 .item-8
+{
+    background-color: grey;
+    grid-column: span 2;
+}
+.box1 .item-9
+{
+    background-color: grey;
+}
+.box1 .item-10
+{
+  height: 89;
+  gap: 5px;
+  display: flex;
+}
+.box1 .item-11
+{
+    background-color: grey;
+    grid-column: span 4;
+    height: 79px;
+}
+.box1 .item-12
+{
+    background-color: rgb(250, 214, 220);
+    height: 79px;
+}
+.box1 .item-13
+{
+    background-color: crimson;
+    grid-column: span 2;
+    height: 79px;
+}
+.box1 .item-14
+{
+    background-color: crimson;
+}
+.box1 .item-15
+{
+  background-color: crimson;
+}
+.box1 .item-16
+{
+    background-color: grey;
+}
+.item-10 .item-one
+{
+    background-color: crimson;
+}
+.inner-box
+{
+    width: 96px;
+    height: 89px;
+    display: flex;
+    gap: 2px;
+}
+.item-one
+{
+    width: 35px;
+    height: 35px;
+    background-color: crimson;
+    margin: 3px;
+    padding: 2px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+.item-two
+{
+    width: 35px;
+    height: 26px;
+    background-color: crimson;
+    margin: 3px;
+    padding: 2px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    gap: 2px;
+}
+.item-three
+{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    margin: 3px;
+    padding: 2px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+.item-four
+{
+    width: 35px;
+    height: 26px;
+    background-color: crimson;
+    margin: 3px;
+    padding: 2px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box2
+{
+    width: 900px;
+    height: 320px;
+    display: flex;
+background-color: white;
+
+}
+.leftbox
+{
+    width: 230px;
+    height: 230px;
+      margin-top: 50px;
+      margin-left: 60px;
+      background-color: gray;
+      box-shadow: -10px -10px  1px crimson, 2px 2px 1px crimson;
+}
+
+
+.rightbox
+{
+    width: 470px;
+    height: 270px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+p{
+    color: gray;
+   
+}
+h1{
+    color: crimson;
+    text-shadow: -10px -8px 4px rgb(224, 220, 220);
+}
+.box 
+{
+    width: 470px;
+    height: 110px;
+    background-color: pink;
+    display: flex;
+   
+}
+.box-1
+{
+    width: 90px ;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: grey;
+}
+.box-2
+{
+    width: 90px ;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: grey;
+}
+.box-3
+{
+    width: 90px ;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: grey;
+}
+button
+{
+    background-color: crimson;
+    color: beige;
+    width: 100px;
+    height: 30px;
+    margin-top: 70px;
+    margin-left: 30px;
+    border: none;
+}
